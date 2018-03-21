@@ -1,1 +1,56 @@
 /* PHASE 10: Posts */
+.posts {
+  margin: 20px 0 0 0;
+}
+
+.post {
+  display: flex;
+  padding: 20px 0 0 0;
+  border-top: 1px solid #ccc;
+  margin: 20px 0 0 0;
+}
+
+.post-body {
+  width: 540px;
+  margin: 0 0 0 20px;
+}
+
+.post-body > p {
+  margin: 0 0 20px 0;
+}
+
+.post-body > h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.post-footer {
+  margin: 20px 0 0 0;
+  justify-content: space-between;
+  display: flex;
+}
+
+.post-footer-info {
+  color: #999;
+  font-size: 14px;
+  display: flex;
+}
+
+.post-footer-info > li:after {
+  padding: 0 5px;
+  content: "·";
+}
+
+.post-footer-info > li:last-child:after {
+  content: none;
+}
+
+.post-footer-tools {
+  display: flex;
+}
+
+.post-footer-tools > li {
+  margin: 0 0 0 10px;
+  display: flex;
+}
